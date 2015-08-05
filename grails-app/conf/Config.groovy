@@ -58,8 +58,8 @@ grails {
         // filteringCodecForContentType.'text/html' = 'html'
     }
 }
-
-
+//Testando plugin do Heroku
+//grails.plugin.heroku.datasource.disableTimeoutAutoconfiguration =	false
 grails.converters.encoding = "UTF-8"
 // scaffolding templates configuration
 grails.scaffolding.templates.domainSuffix = 'Instance'
