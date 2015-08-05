@@ -56,9 +56,9 @@ environments {
 			/*Teste2 com Heroku - 04/08/15
 			 * Testar o compartamento das linhas abaixo depois de instalar o plug do heroku
 			 */			
-			url = "jdbc:postgres://ovgxtjbcovidcm:58i6CULkzIMDZQlpRGNjpy9XiP@ec2-54-83-41-183.compute-1.amazonaws.com:5432/d8v1c2ufprgah"
-			username = "ovgxtjbcovidcm"
-			password = "58i6CULkzIMDZQlpRGNjpy9XiP"					
+			url = "jdbc:postgresql://ec2-54-204-3-188.compute-1.amazonaws.com:5432/dj26unnfnmjld"
+			username = "bzzdximxieptmg"
+			password = "jyQhef-yhfk2P0yShyThBeqKtR"					
             //dbCreate = "create-drop"
             //url = "jdbc:h2:prodDb;MVCC=TRUE;LOCK_TIMEOUT=10000;DB_CLOSE_ON_EXIT=FALSE"
             /*properties {
