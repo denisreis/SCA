@@ -51,8 +51,7 @@ environments {
 			/*uri = new URI(System.env.DATABASE_URL?:"postgres://test:test@localhost/test")			
 			url = "jdbc:postgresql://"+uri.host+uri.path		  
 			username = uri.userInfo.split(":")[0]			
-			password = uri.userInfo.split(":")[1]*/
-						  
+			password = uri.userInfo.split(":")[1]*/						  
 			/*Teste2 com Heroku - 04/08/15
 			 * Testar o compartamento das linhas abaixo depois de instalar o plug do heroku
 			 */			
