@@ -64,6 +64,7 @@ grails.project.dependency.resolution = {
         compile ':cache:1.1.8'
         compile ":asset-pipeline:1.9.9"
 		//Tentando instalar o plugin do heroku - Claudio 05/08/2015
+		//TEste2
 		compile ':heroku:1.0.1'
 		compile ':cloud-support:1.0.11'
 
