@@ -48,19 +48,17 @@ environments {
 			 * Com as linhas abaixo descomentadas da erro local, mas funciona no heroku,
 			 * da erro, mas apenas no index do usuario		
 			 */
-			uri = new URI(System.env.DATABASE_URL?:"postgres://test:test@localhost/test")			
+			/*uri = new URI(System.env.DATABASE_URL?:"postgres://test:test@localhost/test")			
 			url = "jdbc:postgresql://"+uri.host+uri.path		  
 			username = uri.userInfo.split(":")[0]			
-			password = uri.userInfo.split(":")[1]
+			password = uri.userInfo.split(":")[1]*/
 						  
 			/*Teste2 com Heroku - 04/08/15
 			 * Testar o compartamento das linhas abaixo depois de instalar o plug do heroku
-			 */
-			/*
+			 */			
 			url = "jdbc:postgres://ovgxtjbcovidcm:58i6CULkzIMDZQlpRGNjpy9XiP@ec2-54-83-41-183.compute-1.amazonaws.com:5432/d8v1c2ufprgah"
 			username = "ovgxtjbcovidcm"
-			password = "58i6CULkzIMDZQlpRGNjpy9XiP"
-			*/			
+			password = "58i6CULkzIMDZQlpRGNjpy9XiP"					
             //dbCreate = "create-drop"
             //url = "jdbc:h2:prodDb;MVCC=TRUE;LOCK_TIMEOUT=10000;DB_CLOSE_ON_EXIT=FALSE"
             /*properties {
