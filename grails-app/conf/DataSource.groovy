@@ -43,20 +43,18 @@ environments {
     }
     production {
         dataSource {
-			dbCreate = "update" // one of 'create', 'create-drop','update'			
-			//Teste com Heroku - 04/08/15
-			//uri = new URI(System.env.DATABASE_URL?:"postgres://test:test@localhost/test")			
-			//url = "jdbc:postgresql://" + uri.host + ":" + uri.port + uri.path
-			//username = uri.userInfo.split(":")[0]
-			//password = uri.userInfo.split(":")[1]
+			dbCreate = "update" // one of 'create', 'create-drop','update'
+			//Teste1 com Heroku - 04/08/15			
+			uri = new URI(System.env.DATABASE_URL?:"postgres://test:test@localhost/test")I			
+			url = "jdbc:postgresql://"+uri.host+uri.path		  
+			username = uri.userInfo.split(":")[0]			
+			password = uri.userInfo.split(":")[1]			  
+			//Teste2 com Heroku - 04/08/15
+			/*
 			url = "jdbc:postgres://ovgxtjbcovidcm:58i6CULkzIMDZQlpRGNjpy9XiP@ec2-54-83-41-183.compute-1.amazonaws.com:5432/d8v1c2ufprgah"
 			username = "ovgxtjbcovidcm"
 			password = "58i6CULkzIMDZQlpRGNjpy9XiP"
-
-			
-			
-			
-			
+			*/			
             //dbCreate = "create-drop"
             //url = "jdbc:h2:prodDb;MVCC=TRUE;LOCK_TIMEOUT=10000;DB_CLOSE_ON_EXIT=FALSE"
             /*properties {
