@@ -51,8 +51,8 @@ grails.project.dependency.resolution = {
         // runtime 'mysql:mysql-connector-java:5.1.29'
         // runtime 'org.postgresql:postgresql:9.3-1101-jdbc41'
 		//Claudio - 04/08/15: Tentando instalar o plugin do Heroku
-		runtime 'org.postgresql:postgresql:9.3-1100-jdbc41'
-	    //runtime 'postgresql:postgresql:8.4-702.jdbc3'
+		//runtime 'org.postgresql:postgresql:9.3-1100-jdbc41'
+	    runtime 'postgresql:postgresql:8.4-702.jdbc3'
         test "org.grails:grails-datastore-test-support:1.0.2-grails-2.4"
     }
 
