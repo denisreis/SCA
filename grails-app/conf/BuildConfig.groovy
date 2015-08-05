@@ -65,9 +65,7 @@ grails.project.dependency.resolution = {
         compile ":asset-pipeline:1.9.9"
 		//Tentando instalar o plugin do heroku - Claudio 05/08/2015
 		//TEste2
-		compile ':heroku:1.0.1'
-		compile ':cloud-support:1.0.11'
-
+	
         // plugins needed at runtime but not for compilation
         runtime ":hibernate4:4.3.6.1" // or ":hibernate:3.6.10.18"
         //runtime ":database-migration:1.4.0"
