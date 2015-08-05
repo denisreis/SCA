@@ -44,12 +44,18 @@ environments {
     production {
         dataSource {
 			dbCreate = "update" // one of 'create', 'create-drop','update'
-			//Teste1 com Heroku - 04/08/15			
-			uri = new URI(System.env.DATABASE_URL?:"postgres://test:test@localhost/test")I			
+			/*Teste1 com Heroku - 04/08/15
+			 * Com as linhas abaixo descomentadas da erro local, mas funciona no heroku,
+			 * da erro, mas apenas no index do usuario		
+			 */
+			uri = new URI(System.env.DATABASE_URL?:"postgres://test:test@localhost/test")			
 			url = "jdbc:postgresql://"+uri.host+uri.path		  
 			username = uri.userInfo.split(":")[0]			
-			password = uri.userInfo.split(":")[1]			  
-			//Teste2 com Heroku - 04/08/15
+			password = uri.userInfo.split(":")[1]
+						  
+			/*Teste2 com Heroku - 04/08/15
+			 * Testar o compartamento das linhas abaixo depois de instalar o plug do heroku
+			 */
 			/*
 			url = "jdbc:postgres://ovgxtjbcovidcm:58i6CULkzIMDZQlpRGNjpy9XiP@ec2-54-83-41-183.compute-1.amazonaws.com:5432/d8v1c2ufprgah"
 			username = "ovgxtjbcovidcm"
