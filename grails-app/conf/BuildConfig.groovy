@@ -63,9 +63,14 @@ grails.project.dependency.resolution = {
         compile ":scaffolding:2.1.2"
         compile ':cache:1.1.8'
         compile ":asset-pipeline:1.9.9"
-		//Tentando instalar o plugin do heroku - Claudio 05/08/2015
-		//TEste2
-	
+		/*Tentando instalar o plugin do heroku - Claudio 05/08/2015.
+		*Se eu tirar as duas proximas linha a aplicacao para de rodar no Heroku.
+		*Com as linhas a aplicacao roda mas da erro no banco, acho que eu consegui
+		*instalar o plugin, agora tenho que conseguir configura-lo em relacao do 
+		*banco de dados
+		*/
+		compile ':heroku:1.0.1'
+		compile ':cloud-support:1.0.11'	
         // plugins needed at runtime but not for compilation
         runtime ":hibernate4:4.3.6.1" // or ":hibernate:3.6.10.18"
         //runtime ":database-migration:1.4.0"
