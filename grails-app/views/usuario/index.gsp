@@ -24,7 +24,7 @@
 			<thead>
 					<tr>
 					
-						<%– comentário GSP <g:sortableColumn property="nome" title="${message(code: 'usuario.nome.label', default: 'Nome')}" /> –%>
+						
 					
 					</tr>
 				</thead>
